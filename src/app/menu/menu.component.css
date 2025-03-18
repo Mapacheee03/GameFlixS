@@ -1,0 +1,47 @@
+.menu-container {
+  background: rgba(17, 17, 17, 0.7); /* Fondo negro semi-transparente */
+  color: white;
+  padding: 10px 30px;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.menu-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff4500;  /* Naranja brillante */
+}
+
+nav {
+  display: flex;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+
+.menu-list li {
+  margin-right: 20px;
+}
+
+.menu-item {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.menu-item:hover {
+  color: #ff4500;  /* Color cuando se pasa el ratón */
+}
